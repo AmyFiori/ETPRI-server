@@ -1,0 +1,7 @@
+#!/bin/bash
+# run electron application, this is a node.js app
+#
+cd "${0%/*}"
+pwd
+nodemon serverHTTPS.js
+#node serverHTTPSv5.js

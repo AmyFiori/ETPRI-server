@@ -1,0 +1,6 @@
+#!/bin/bash
+# run electron application, this is a node.js app
+#
+cd "${0%/*}"
+echo in chrome browser, About:inspect, Then click Open dedicated DevTools for Node
+node --inspect-brk serverHTTPS.js
